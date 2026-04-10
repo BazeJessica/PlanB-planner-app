@@ -5,14 +5,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 min-h-screen p-6">
+<body class="bg-gray-500 min-h-screen p-6">
 
     <!-- NAVBAR (PUT INSIDE BODY) -->
     <div class="bg-white shadow mb-6">
         <div class="max-w-6xl mx-auto p-4 flex justify-between items-center">
 
             <a href="/" class="font-bold text-gray-800">
-                🧠 Planner
+                📋 Planner
             </a>
 
             <div class="flex gap-4">
@@ -27,7 +27,7 @@
     <!-- HEADER -->
     <div class="max-w-6xl mx-auto mb-6">
         <h1 class="text-3xl font-bold text-gray-800">
-            📌 {{ $board->name }}
+             {{ $board->name }}
         </h1>
         <p class="text-gray-500">Manage your tasks</p>
     </div>
